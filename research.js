@@ -18,7 +18,7 @@ function init() {
 
   linkedinBtn.setAttribute("href", `https://www.linkedin.com/shareArticle?url=${postUrl}&title=${postTitle}`);
 
-  whatsappBtn.setAttribute("href", `https://wa.me/?text=${postTitle} ${postUrl}`);
+  whatsappBtn.setAttribute("href", `https://api.whatsapp.com/send/?text=${postTitle} ${postUrl}`);
 }
 
 init();
